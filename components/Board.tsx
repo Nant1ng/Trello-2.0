@@ -84,7 +84,7 @@ function Board() {
       });
 
       updateTodoInDB(todoMoved, finishCol.id);
-      
+
       setBoardState({ ...board, columns: newColumns });
     }
   };
